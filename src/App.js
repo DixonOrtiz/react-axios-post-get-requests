@@ -1,11 +1,12 @@
 import React from "react";
 import PostForm from "./components/PostForm";
+import Posts from "./components/Posts";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
       <PostForm />
+      <Posts />
     </div>
   );
 }
